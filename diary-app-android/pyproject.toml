@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mydiaryspace"
+version = "1.0.0"
+description = "我的私人空间 - 日记/随手记/日程/记账应用"
+requires-python = ">=3.8"
+
+dependencies = [
+    "kivy[base]==2.3.0",
+]
